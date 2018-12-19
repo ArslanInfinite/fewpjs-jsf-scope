@@ -1,6 +1,6 @@
 # JavaScript Fundamentals: Scope
 
-## Objectives
+## Learning Goals
 
 - Identify how scope works in JavaScript
 - Identify different types of scope
