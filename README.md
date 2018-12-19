@@ -8,12 +8,12 @@
 
 ## Introduction
 
-Imagine that you have gone out into the world and become a member of an
-engineering organization, and so you now have access to the company's
-[Slack](https://slack.com/) team. The Slack team is organized into channels,
-some of which are company-wide, such as the main `#general` channel, and some of
-which are used by individual teams for intra-team communication, such as
-`#education`, `#engineering`, and `#marketing`.
+Imagine that you have been hired into an engineering organization, and so you
+now have access to the company's [Slack](https://slack.com/) team. The Slack
+team is organized into channels, some of which are company-wide, such as the
+main `#general` channel, and some of which are used by individual teams for
+intra-team communication, such as `#education`, `#engineering`, and
+`#marketing`.
 
 Each channel forms its own _scope_, meaning that its messages are only visible
 to those with access to the channel. Within `#engineering`, you can interact
@@ -21,7 +21,7 @@ with the other members of your team, referring and responding to messages that
 they send. However, you can't see any of the messages posted inside `#marketing`
 — that's a different scope that you don't have access to.
 
-The same principle of scopes exists in JavaScript and it's defined by where
+The same principle of scope exists in JavaScript and it's defined by where
 declared variables and functions are visible.
 
 ## Identify How Scope Works in JavaScript
@@ -194,10 +194,10 @@ variable contains an unexpected value. So keep your scopes small and specific.
 
 ## Conclusion
 
-We figured out how scope works in JavaScript. We know that our declared
-variables and methods have their own execution contexts. We know we can have
-global-, function- and block-level scopes and that it's best practice to only
-make variables and functions available only where they're needed.
+We've now covered how scope works in JavaScript. We talked about how our
+declared variables and methods have their own execution contexts and global-,
+function- and block-level scopes. We also discussed that it's best practice to
+only make variables and functions available only where they're needed.
 
 ## Resources
 
